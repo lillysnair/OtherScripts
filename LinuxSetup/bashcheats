@@ -1,0 +1,24 @@
+Useful BASH things
+
+:alias
+alias bitch = 'sudo !!' -redoes last line with sudo
+alias fuck = 'sudo' -sudo alias
+
+:pasting
+$@ does something
+
+:misc
+putting a space before a command makes command not show up in history
+
+two lists of strings, get unique from first list
+cat list1 list2 list2 | sort | uniq -u
+
+python -m SimpleHTTPServer -serve current dir at http://$hostname:8000/
+
+retrieve external ip and things
+curl ifconfig.me/ip
+curl ifconfig.me/host
+curl ifconfig.me/ua -user agent
+curl ifconfig.me/port
+
+

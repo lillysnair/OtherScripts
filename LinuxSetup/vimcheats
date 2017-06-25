@@ -1,0 +1,27 @@
+Useful VIM things
+
+:search
+/pattern search forward regex
+?pattern search backward regex
+ctrl-o, ctrl-i go to jump locations
+
+:typing (in insert mode)
+ctrl-n, ctrl-p word completion (similar words in current file)
+ctrl-u erases line
+
+:markers (jump to locations often)
+mk (where k=a-z) mark current position
+'k move to mark k
+d'k delete mark k
+
+:copy/paste
+normal mode, press v
+move cursor, press y
+go to where to paste, press p
+
+*for copy out of vim:
+file 1: ESC m a
+then move cursor to end of paste
+ESC m b
+ESC :'a, 'b w! /outfile
+file 2: ESC :r /outfile
