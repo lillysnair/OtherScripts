@@ -1,10 +1,5 @@
 #Set up script
 
-DBHOST=localhost
-DBNAME=dbname
-DBUSER=dbuser
-DBPASSWD=test12345
-
 
 sudo apt-get update -y
 
